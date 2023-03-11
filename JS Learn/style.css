@@ -1,0 +1,100 @@
+
+#btn1,
+#btn {
+  width: 170px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  background: lime;
+  font-size: 17px;
+  cursor: pointer;
+  margin: 10px;
+}
+p {
+  width: 50px;
+  height: 50px;
+  background: purple;
+  float: left;
+  margin: 10px;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+button:active {
+  transform: scale(0.98);
+}
+#btn1:nth-of-type(2) {
+  background: red;
+  color: white;
+}
+div {
+  display: flex;
+  margin: auto;
+  border: none;
+  margin-top: 100px;
+  background: black;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+
+}
+.btn2 {
+  width: 120px;
+  height: 35px;
+  border: none;
+  margin: 10px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  font-size: 17px;
+  cursor: pointer;
+}
+#btnrem {
+  width: 120px;
+  height: 35px;
+  border: none;
+  margin: 10px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  font-size: 17px;
+  cursor: pointer;
+}
+#text > button:nth-of-type(2) {
+  background: rgb(194, 38, 38);
+  color: rgb(0, 0, 0);
+}
+#text > button:nth-of-type(3) {
+  background: rgb(15, 93, 202);
+  color: rgb(255, 255, 255);
+}
+#text > button:nth-of-type(4) {
+  background: rgb(251, 0, 222);
+  color: rgb(255, 255, 255);
+}
+@media screen and (max-width:588px) {
+   .btn,.btn1,.btn2,.buttonclass {
+    width: 60%;
+  }
+}
+.buttonfromjs {
+  gap: 10px;
+  border: 1px;
+  background: white;
+  display: none;
+
+}
+.buttonfromjs > button {
+  background: black;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+.remove {
+  display: none;
+}
